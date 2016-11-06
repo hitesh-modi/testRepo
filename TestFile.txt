@@ -1,0 +1,2 @@
+Hi This is a test file,
+which will be used for testing conflicts.
