@@ -1,3 +1,4 @@
 Hi This is a test file,
 which will be used for testing conflicts.
 This line was added in branch "branch-two".
+This line was added in branch "branch-one".
