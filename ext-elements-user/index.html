@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="node_modules\@webcomponents\webcomponentsjs\webcomponents-bundle.js"></script>
+	<link rel="import" href="http://127.0.0.1:8080"></link>
+	<style>
+		business-card {
+			width: 300px;
+			height: 400px;
+			background: green;
+}
+	</style>
+</head>
+
+<body>
+
+<div id="helloWorldPanel">
+	<business-card id="business-card" name="Hitesh Modi"></business-card>
+</div>
+
+<h3>My Test Application</h3>
+	<table>
+		<tr>
+			<th>
+				<td>S.No</td>
+				<td>Name</td>
+				<td>Age</td>
+			<th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Hitesh Modi</td>
+			<td>30</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Gunjan Chourasia</td>
+			<td>30</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Swaranjal Modi</td>
+			<td>1.5</td>
+		</tr>
+	</table>
+	
+	
+		
+	
+	
+	<script type="text/javascript">
+		const businessCard = document.querySelector('business-card');
+		businessCard.addEventListener('notify-message', e => alert(e.detail));
+		function handleEvent(event) {
+			alert('From this application', event.detail);
+		}
+	</script>
+	
+</body>
+
+</html>

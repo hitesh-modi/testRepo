@@ -1,0 +1,25 @@
+{
+  "name": "ext-elements",
+  "version": "1.0.0",
+  "description": "Custom elememts using extjs",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server -p 8081",
+    "webpack": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^7.1.5",
+    "webpack": "^4.18.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.1.1",
+    "babel-core": "^6.26.3",
+    "http-server": "^0.11.1",
+    "webpack-dev-server": "^3.1.8"
+  }
+}
